@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>CIVIL TECH Norbert Michałowski</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.1rem; margin-top: 10px; }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      text-decoration: none;
+      color: white;
+      background: #007ACC;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #005F99; }
+
+    #kontakt a {
+      display: block;
+      color: #007ACC;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: #f1f1f1;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- START - Sekcja startowa -->
+  <header>
+    <h1>CIVIL TECH</h1>
+    <p>Norbert Michałowski — usługi inżynieryjne i doradcze</p>
+    <a href="#kontakt" class="btn">Kontaktuj się</a>
+  </header>
+
+  <!-- O nas -->
+  <section id="o-nas">
+    <h2>O nas</h2>
+    <p>
+      Jesteśmy firmą inżynieryjną zlokalizowaną w Słupsku (ul. Szczecińska 2). Oferujemy usługi profesjonalne
+      w zakresie doradztwa technicznego, ekspertyz i projektów budowlanych. Naszym celem jest
+      dostarczanie solidnych rozwiązań dla naszych klientów z branży budowlanej i przemysłowej.
+    </p>
+    <p>
+      Działamy z zaangażowaniem i profesjonalizmem, dostosowując ofertę do indywidualnych potrzeb.
+    </p>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Adres:</strong> ul. Szczecińska 2, 76-200 Słupsk, woj. pomorskie, Polska</p>
+    <p><strong>NIP:</strong> 8393244529</p>
+    <p>
+      <strong>E-mail:</strong> <a href="mailto:kontakt@civiltech.pl">kontakt@civiltech.pl</a><br>
+      <strong>Telefon:</strong> <a href="tel:+48760000000">+48 760 000 000</a>
+    </p>
+    <p>
+      * Proszę uzupełnić prawdziwy e-mail i numer telefonu w miejscu powyżej.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 CIVIL TECH Norbert Michałowski — Wszystkie prawa zastrzeżone.
+  </footer>
+
+</body>
+</html>
